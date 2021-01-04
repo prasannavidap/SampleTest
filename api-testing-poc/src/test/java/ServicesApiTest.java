@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class ServicesApiTest {
 
     static String apiUrl;
-
+    //This is the annotation
     @BeforeAll
     static void getApiUrl() {
         apiUrl = System.getProperty("apiUrl");
