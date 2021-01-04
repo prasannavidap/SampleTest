@@ -1,0 +1,14 @@
+f21:34:27.921 - [ServicesApiClient] INFO  : Initiated bestbuy.api.services.ServicesApiClient instance
+-21:34:27.981 - [ApiCaller] INFO  : Request:
+bRequest URI:	http://petclinicapi.e46708b92c054086909b.eastus.aksapp.io/petclinic/api/specialties
+Body:			<none>
+.21:34:30.290 - [ApiCaller] INFO  : Response:
+HTTP/1.1 200 
+³[{"id":1,"name":"radiology"},{"id":2,"name":"surgery"},{"id":3,"name":"dentistry"},{"id":6,"name":"Test12Test12Test12Test12Test12"},{"id":7,"name":"Other"},{"id":8,"name":"Other"},{"id":9,"name":"Other"},{"id":10,"name":"Other"},{"id":11,"name":"Other"},{"id":12,"name":"prishi"},{"id":13,"name":"Other"}]
+`21:34:31.191 - [StoresApiClient] INFO  : Initiated bestbuy.api.stores.StoresApiClient instance
+-21:34:31.296 - [ApiCaller] INFO  : Request:
+YRequest URI:	http://petclinicapi.e46708b92c054086909b.eastus.aksapp.io/petclinic/stores
+Body:			<none>
+.21:34:31.949 - [ApiCaller] INFO  : Response:
+HTTP/1.1 404 
+‹{"timestamp":"2020-12-28T16:04:33.247+0000","status":404,"error":"Not Found","message":"No message available","path":"/petclinic/stores"}
